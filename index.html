@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>PUCETEC DEV CHALLENGE</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+  <header>
+    <h1>PUCETEC</h1>
+     <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExZnRlbGozNmp4azNlaTk0eXN4MGEzYWgwN2owMnVoNzlncHhwdGE3NiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/hrdX1BsUBq7DkGJCCd/giphy.gif" alt="Tecnologia ">
+    <h1> Dev Challenge</h1>
+    <p>Sigue tu instinto y apasionate en el desarrollo web y la innovación tecnológica.</p>
+    <button id="theme-toggle">Cambiar tema</button>
+  </header>
+
+  <main>
+    <section>
+        <h2>Datos Personales:</h2>
+         
+      <form id="registro-form">
+        <label>Nombre:
+          <input type="text" id="nombre" required />
+        </label>
+        <label>Correo:
+          <input type="email" id="correo" required />
+        </label>
+        <label>Carrera:
+          <input type="text" id="carrera" required />
+        </label>
+        <button type="submit">Enviar</button>
+      </form>
+    </section>
+
+    <section>
+      <h2>Ediciones Anteriores</h2>
+      <ul>
+        <li>2022 - Desarrollo Web</li>
+        <li>2023 - Inteligencia Artificial</li>
+        <li>2024 - Apps Móviles</li>
+        <li>2025 - Base de Datos </li>
+      </ul>
+    </section>
+
+    <section id="participantes">
+      <h2>Participantes Colaboradores</h2>
+      <div class="grid" id="lista-participantes"></div>
+    </section>
+  </main>
+
+  <footer>
+    <p>Creado por Patricia Sotalin</p>
+    <p>Síguenos en nuestra cuenta oficial:</p>
+    <a href="https://pucetec.edu.ec" target="_blank">Sitio PUCE</a>
+  </footer>
+
+
+  <script src="script.js"></script>
+
+</body>
+</html>
